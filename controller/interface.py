@@ -1,0 +1,5 @@
+search_song_url = "https://music.163.com/weapi/cloudsearch/get/web"
+get_song_url = "https://music.163.com/weapi/song/enhance/player/url/v1"
+get_songDetail_url = "https://music.163.com/weapi/v3/song/detail"
+get_songLyric_url = "https://music.163.com/weapi/song/lyric"
+get_songComment_url = "https://music.163.com/weapi/v1/resource/comments/R_SO_4_{}"

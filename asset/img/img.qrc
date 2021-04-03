@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="img">
+    <file>Last.png</file>
+    <file>Next.png</file>
+    <file>Pause.png</file>
+    <file>Play2.png</file>
+    <file>Return.png</file>
+    <file>Question.png</file>
+    <file>Enter.png</file>
+    <file>Like.png</file>
+    <file>Liked.png</file>
+    <file>Play.png</file>
+    <file>Search.png</file>
+    <file>Set.png</file>
+  </qresource>
+</RCC>

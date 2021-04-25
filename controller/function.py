@@ -15,6 +15,7 @@ def search_song_id(para):
     ids = []
     for l in json.loads(response.text)['result']['songs']:
         ids.append(l["id"])
+
     return ids
 
 
@@ -23,6 +24,7 @@ def get_song_url(para):
     para = dict(ids=para["ID"], level="standard", encodeType="aac")
     response = requests.post(url=url, headers=header, data=auth.encrypt(para))
     song_url_json = json.loads(response.text)
+
     return song_url_json
 
 
